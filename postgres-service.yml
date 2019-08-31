@@ -1,9 +1,9 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: db
+  name: db # this is the name the web apps will use to access this service
   labels:
-    name: postgres-service
+    name: db-service
     app: demo-voting-app
 spec:
   ports:
