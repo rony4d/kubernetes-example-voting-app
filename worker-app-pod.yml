@@ -9,5 +9,6 @@ metadata:
 spec:
   containers:
     - name: worker-app-container
-      image: dockersamples/examplevotingapp_worker
-      
+      image: dockersamples/examplevotingapp_worker 
+      # this is not a web app so it does not need to have a port
+
